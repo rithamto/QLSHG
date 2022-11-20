@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="392dfb86fdeb4d25a1c5b4a970a661dc" Name="Diagram1">
+        <EntityTypeShape EntityType="QLHGModel.CHUCVU" Width="1.5" PointX="7.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHGModel.CTHD" Width="1.5" PointX="5.25" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHGModel.HOADON" Width="1.5" PointX="8.25" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHGModel.KHACHHANG" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHGModel.NHACUNGCAP" Width="1.5" PointX="0.75" PointY="5.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHGModel.NHANVIEN" Width="1.5" PointX="10" PointY="9.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHGModel.QUANLY" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHGModel.SANPHAM" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QLHGModel.TaiKhoan" Width="1.5" PointX="0.75" PointY="9.375" IsExpanded="true" />
+        <AssociationConnector Association="QLHGModel.FK__NHANVIEN__MaCV__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHGModel.FK__CTHD__MaHD__38996AB5" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHGModel.FK__CTHD__MaKH__3B75D760" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHGModel.FK__CTHD__MaSP__3A81B327" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHGModel.FK__HOADON__MaKH__35BCFE0A" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHGModel.FK__HOADON__MaSP__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="QLHGModel.FK__SANPHAM__MaNCC__2D27B809" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
